@@ -141,10 +141,10 @@ export default function ParkedPage() {
                   : "opacity-0 translate-y-8"
               }`}
             >
-              <Button
-                asChild
-                size="lg"
-                className="h-14 px-8 rounded-[5px] text-lg font-bold shadow-lg shadow-primary/30 hover:shadow-xl hover:shadow-primary/40 hover:scale-105 active:scale-95 transition-all flex items-center gap-3 bg-primary hover:bg-primary/90"
+              <button
+                // asChild
+                // size="lg"
+                className="h-14 px-8 rounded-[5px] text-lg font-bold shadow-lg hover:shadow-xl hover:shadow-secondary/40 hover:scale-105 active:scale-95 transition-all flex items-center gap-3 bg-secondary hover:bg-[#017ce8] text-white"
               >
                 <Link
                   href="https://shop.simplydiegos.com/products/shop/"
@@ -154,7 +154,7 @@ export default function ParkedPage() {
                   <ShoppingCartIcon className="h-5 w-5" />
                   <span>Shop Online Now</span>
                 </Link>
-              </Button>
+              </button>
               <Button
                 variant="outline"
                 size="lg"
@@ -194,7 +194,7 @@ export default function ParkedPage() {
               {/* Main image container */}
               <div className="relative aspect-[4/5] md:aspect-square rounded-[5px] overflow-hidden shadow-2xl shadow-black/40 border-2 border-white/10">
                 <Image
-                  src="/pet-store-Albuquerque.png"
+                  src="/hero-image.jpeg"
                   alt="Simply Diego's Local Healthy Pet Store"
                   fill
                   sizes="(max-width: 1024px) 100vw, 600px"
